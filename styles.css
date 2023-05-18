@@ -237,9 +237,9 @@ p{
     *{
       /*  background-color: red;*/
     }
-    .devPic{
+    /*.devPic{
         display: none;
-    }
+    }*/
     .intro, .blogContainer, .contactform{
         margin: 50px 8px;
     }
