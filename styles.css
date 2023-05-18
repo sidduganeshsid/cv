@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+.sidebar {
+    position: absolute;
+    background-color: rgb(174, 174, 174);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(208, 28, 196); */
+    padding: 0px 15px;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;    
+}
+
+.about{
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    height: 58vh;
+    
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer{
+    margin: 40px 88px;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.intro{
+    margin: 40px 88px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    padding: 3px 0;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform{
+    padding: 0 34px;
+ /*   padding-top: 144px;*/
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 88px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+   /* padding: 12px 0; */
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+/*
+.contactform form div{
+    width: 16px;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}*/
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+   margin: 0 40px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 28px;
+    margin:3px 0;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    margin-top: 3px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-left: 10px ;
+}
+.cross{
+
+    margin-left: 185px;
+}
+@media (max-width: 1000px) {
+    *{
+      /*  background-color: red;*/
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactform{
+        margin: 50px 8px;
+    }
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
+
