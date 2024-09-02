@@ -22,11 +22,11 @@
       /* background-color: yellow; *//*debug*/
       justify-content: flex-end;
   }
-  .programmer-img{
-    /* border: 10px solid black; */
+  /* .programmer-img{
+    /* border: 10px solid black; 
     margin-top: 40vh;
     margin-left: 75vh;
-  }
+  } */
 
   
 
@@ -39,6 +39,7 @@
     height: 100vh;
     background-image: url("./assets/roomMatrix.jpg");
     background-size: cover;
+    background-position: center;
   }
   section{
     height: 100vh;
